@@ -15,6 +15,7 @@ please refer to the [linux install opencv Driver](doc/linux_install_opencv_Drive
 please refer to the [windows install opencv Driver](doc/linux_install_opencv_Driver.md)
 
 ## What's next
+The project contains multiple demos, please try them according to the corresponding descriptions.
 ```
     .
     ├── c                           # C Demo
