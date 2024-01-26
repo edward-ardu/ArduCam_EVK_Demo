@@ -8,7 +8,7 @@ void list_mode(const char *config_path, int mode_id, bool only_list) {
     ArducamCameraOpenParam param;
     ArducamDefaultParam(&param);           // init camera open parameters with the default values
     param.config_file_name = config_path;  // a path of config file
-    param.bin_config = true;               // list mode only support bin config
+    param.bin_config = false;               // list mode only support bin config
     int ret =
         ArducamOpenCamera(&camera, &param);  // open camera, return Success if success, otherwise return error code
     if (ret != Success) {
